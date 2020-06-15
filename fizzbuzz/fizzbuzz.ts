@@ -7,18 +7,18 @@
  *  - for multiples of both three and five, print FizzBuzz (instead of the number)
  */
 
-for (var number=1; number<=100; number++) {
+for (var number = 1; number <= 100; number++) {
   const isFizz: boolean = number % 3 === 0;
   const isBuzz: boolean = number % 5 === 0;
   const isFizzBuzz: boolean = (number % 3 === 0) && (number % 5 === 0);
   let result: string;
   if (isFizzBuzz) {
     result = 'FizzBuzz';
-  } else if(isFizz) {
+  } else if (isFizz) {
     result = 'Fizz';
   } else if (isBuzz) {
     result = 'Buzz';
-  }  else {
+  } else {
     result = number.toString();
   }
   console.log(result);
