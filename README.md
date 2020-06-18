@@ -14,3 +14,11 @@ Day 03: 💡 Palindrome with inbuild methods
         💡 Check permutation of a string is a Palindrome
             🔥 usage set
             🔥 usage of Set.has, add, delete methods
+
+Day 04: 💡 fibonacci series with recursion
+            🔥 time complexity - O(2 POW N)
+            🔥 space complexity - O(N)
+        💡 fibonacci series with recursion - optimized
+            🔥 memoization
+            🔥 time complexity - O(N)
+            🔥 space complexity - O(N)
