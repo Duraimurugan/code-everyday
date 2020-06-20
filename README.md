@@ -22,3 +22,10 @@ Day 04: 💡 fibonacci series with recursion
             🔥 memoization
             🔥 time complexity - O(N)
             🔥 space complexity - O(N)
+
+Day 05: 💡 Leet code : puzzle: First non-repeating character in a string
+            🔥 use of maps
+            🔥 time and space complexity O(N) instead of O(N SQR) by avoiding multiple loops
+
+Day 06: 💡 Leet code : puzzle: Product of array elements except self
+            🔥 time and space complexity O(3N): can be improved to O(2N) and eventually O(N) 
