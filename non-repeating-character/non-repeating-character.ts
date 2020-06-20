@@ -5,18 +5,19 @@
  * eg: abababab => -
  */
 
-function getFirstNonRepeatingCharacter(str: string): string {
+function getFirstNonRepeatingCharacter(str: string) {
   const countOfString = new Map<string, number>();
-  for (let char of str.split('')) {
+  const splitString = str.split('');
+  for (let char of splitString) {
     countOfString.set(char, (countOfString.get(char) || 0) + 1);
   }
 
-  let splitString = str.split('');
-  for (let i = 0; i < splitString.length; i++) {
-    if (countOfString.get(splitString[i]) === 1) {
-      return splitString[i];
+  for(let char of splitString) {
+    if (countOfString.get(char) === 1) {
+      return char;
     }
   }
+
   return '-';
 }
 
