@@ -30,6 +30,12 @@ Day 05: 💡 Leet code : puzzle: First non-repeating character in a string
 Day 06: 💡 Leet code : puzzle: Product of array elements except self
             🔥 time and space complexity O(3N): can be improved to O(2N) and eventually O(N) 
 
-Day 06: 💡 Leet code : puzzle: Squared array
+Day 07: 💡 Leet code : puzzle: Squared array
             🔥 Math.abs usage
             🔥 time and space complexity O(N)
+
+Day 08: 💡 Learnt: bubble sort algorithm - egghead.io
+            🔥 Good for small size array. bigger element is bubbled to the end 
+            🔥 time complexity: O(N^2)
+            🔥 space complexity: O(N)
+
