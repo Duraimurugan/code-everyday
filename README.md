@@ -39,3 +39,5 @@ Day 08: 💡 Learnt: bubble sort algorithm - egghead.io
             🔥 time complexity: O(N^2)
             🔥 space complexity: O(N)
 
+Day 08: 💡 Leet code: determine if sum exists
+            🔥 time complexity: O(N) and space complexity: O(N) instead of O(N ^ 2)
