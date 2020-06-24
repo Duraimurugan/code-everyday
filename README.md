@@ -42,4 +42,5 @@ Day 08: 💡 Learnt: bubble sort algorithm - egghead.io
 Day 08: 💡 Leet code: determine if sum exists
             🔥 time complexity: O(N) and space complexity: O(N) instead of O(N ^ 2)
 
-Day 09: 
+Day 09: 💡 Egghead.io: implementation of breadth first search
+            🔥 usage of graph in JS
