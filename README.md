@@ -44,3 +44,6 @@ Day 08: 💡 Leet code: determine if sum exists
 
 Day 09: 💡 Egghead.io: implementation of breadth first search
             🔥 usage of graph in JS
+
+Day 10: 💡 Egghead.io: Divide and conquer algorithm
+            🔥 basic recursion: different way of thinking about a problem
