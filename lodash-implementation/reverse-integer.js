@@ -1,5 +1,6 @@
 /**
  * to reverse an integer
+ * egghead.io problem
  */
 
  function reverseTheInteger(number) {
