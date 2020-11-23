@@ -22,17 +22,11 @@ function makeAnagram(a, b) {
         countOfChars1.set(char, (countOfChars1.get(char) || 0) + 1);
     }
     for (const char of b.split('')) {
-            if(countOfChars1.get(char) > 0) {
-            countOfChars1.set(char, countOfChars1.get(char) - 1);
-        } else {
-            countOfChars2.set(char, (countOfChars2.get(char) || 0) + 1);
-        }
+        if(countOfChars1.get(char) > 0) countOfChars1.set(char, countOfChars1.get(char) - 1);
+        else countOfChars2.set(char, (countOfChars2.get(char) || 0) + 1); 
     }
-    const map1 = Array.from(countOfChars1.values()).reduce((acc, char) => acc + char, 0);
-    const map2 = Array.from(countOfChars2.values()).reduce((acc, char) => acc + char, 0);
-    const maps =  map1+map2;
-    return maps;
-}
 
+    return Array.from(countOfChars1.values()).reduce((acc, char) => acc + char, 0) + Array.from(countOfChars2.values()).reduce((acc, char) => acc + char, 0);
+}
 
 console.log(makeAnagram('fcrxzwscanmligyxyvym', 'jxwtrhvujlmrpdoqbisbwhmgpmeoke'));
